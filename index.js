@@ -1,7 +1,7 @@
 const express = require("express");
 const pa11y = require("pa11y");
 
-const PORT = process.env.PORT || 2000;
+const PORT = process.env.PORT;
 const app = express();
 
 app.use(express.static("public"));
